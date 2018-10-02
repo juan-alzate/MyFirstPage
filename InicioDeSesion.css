@@ -4,6 +4,7 @@ p.titulos{
 	font-style: italic;
 	font-weight: 750;
 	text-shadow: 6px -6px 6px white;
+  cursor: pointer;
 }
 
 p.titulo2{
@@ -11,7 +12,6 @@ p.titulo2{
 	font-size: 30px;
 	font-style: italic;
 	font-weight: 750;
-	/*text-shadow: 6px -6px 4px lightblue;¨*/
 }
 
 p.subtitulos{
@@ -26,17 +26,29 @@ input.cajatexto{
   font-style: italic;
   text-align: center;
   font-size: 18pt;
-  background-color: lightblue;
+  background-color: Skyblue;
   border-radius: 10px;
   border-color: white;
+}
+
+input.cajaingreso{
+  font-style: italic;
+  text-align: center;
+  border-radius: 8px;
+  font-size: 11pt;
 }
 
 input.boton{
   font-family: Arial, Serif;
   font-style: italic;
   text-align: center;
-  font-size: 14pt;
+  font-size: 15pt;
   background-color: silver;
   border-radius: 10px;
-  border-color: white;
+  border-color: Skyblue;
 }
+
+body{
+  background-color: black;
+}
+
