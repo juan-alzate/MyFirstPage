@@ -1,51 +1,51 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<link rel="stylesheet" type="text/css" href="InicioDeSesion.css">
-	<meta charset="UTF-8">
-	<!--meta http-equiv="Content-Type" content="text/html; charset=utf-8"/-->
+	<link rel="stylesheet" type="text/css" href="inicioDeSesion.css">
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
 	<title>Inicio de sesión</title>
 </head>
 
-<body bgcolor="black">
+<body>
 <header>
 	<form>
 		<!--Declaramos los label-->
-		<div style="background-color:skyblue; padding:4%;">
-		<span style="position: absolute; top: 3.2%; left: 10%;">
+		<div style="background-color:skyblue; padding:60px;">
+		<span style="position: absolute; top: 25px; left: 130px;">
 			<label><p class="titulos">JuansBook</p></label>
 		</span>
-		<span style="position: absolute; top: 3.2%; left: 44.9%;">
+		<span style="position: absolute; top: 20px; left: 575px;">
 			<label><p class="subtitulos">Nombre de usuario: </p></label>
 		</span>
-		<span style="position: absolute; top: 3.2%; left: 60%;">
+		<span style="position: absolute; top: 20px; left: 770px;">
 			<label><p class="subtitulos">Contraseña: </p></label>
 		</span>
 		</div>
 
 		<!--Declaramos los campos de texto-->
-		<span style="position: absolute; top: 11.5%; left: 44.9%;">
-			<input type="text" name="Username" placeholder="Ingresa tu usuario">
+		<span style="position: absolute; top: 70px; left: 575px;">
+			<input class="cajaingreso" type="text" name="Username" placeholder="Ingresa tu usuario">
 		</span>
-		<span style="position: absolute; top: 11.5%; left: 60%;">
-			<input type="password" name="Password" placeholder="Ingresa tu contraseña">
+		<span style="position: absolute; top: 70px; left: 770px;">
+			<input class="cajaingreso" type="password" name="Password" placeholder="Ingresa tu contraseña">
 		</span>
 
 		<!--Declaramos los botones-->
-		<span style="position: absolute; top: 11%; left: 74.5%;">
+		<span style="position: absolute; top: 65px; left: 965px;">
 			<input class="boton" type="button" value="Iniciar" name="Enter">
 		</span>
     </form>
 </header>
 <aside>
 	<div style="color:white";>
+	<form>
 		<span style="position: absolute; top: 23%; left: 45%">
 			<sub><p class="titulo2">Registrate</p></sub>
 		</span>
 	    <span style="position: absolute; top: 37%; left: 45%;">
 			<input class="cajatexto" type="text" name="Name" placeholder="Ingresa tu nombre">
 		</span>
-		<span style="position: absolute; top: 37%; left: 66%;">
+		<span style="position: absolute; top: 37%; left: 67%;">
 			<input class="cajatexto" type="text" name="Lastname" placeholder="Ingresa tu apellido">
 		</span>
 		<span style="position: absolute; top: 45%; left: 45%;">
@@ -67,9 +67,10 @@
     		<input class="boton" type="button" value="Registrar" name="Register">
     	</span>
 	</div>
+    </form>
 </aside>
-<article style="position: absolute; top: 28%; left: 7%;">
-	<img src="mundo2.png">
+<article style="position: absolute; top:170px; left: 90px;">
+	<img src="Logo.png">
 </article>
 </body>
 </html>
