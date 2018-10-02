@@ -6,6 +6,14 @@ p.titulos{
 	text-shadow: 6px -6px 6px white;
 }
 
+p.titulo2{
+	font-family: Arial, Serif;
+	font-size: 30px;
+	font-style: italic;
+	font-weight: 750;
+	text-shadow: 6px -6px 6px Orange;
+}
+
 p.subtitulos{
     font-family: Arial, Serif;
 	font-size: 18px;
