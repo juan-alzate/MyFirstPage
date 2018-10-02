@@ -1,6 +1,24 @@
 p.titulos{
 	font-family: Arial, Serif;
-	font-size: 20px;
-	font-style: oblique;
-	font-weight: 700;
+	font-size: 30px;
+	font-style: italic;
+	font-weight: 750;
+	text-shadow: 6px -6px 6px white;
+}
+
+p.subtitulos{
+    font-family: Arial, Serif;
+	font-size: 18px;
+	font-style: italic;
+	font-weight: 750;
+}
+
+input.cajatexto{
+  font-family: Arial, Serif;
+  font-style: italic;
+  text-align: center;
+  font-size: 18pt;
+  background-color: Orange;
+  border-radius: 10px;
+  border-color: white;
 }
