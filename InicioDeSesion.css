@@ -11,7 +11,7 @@ p.titulo2{
 	font-size: 30px;
 	font-style: italic;
 	font-weight: 750;
-	text-shadow: 6px -6px 6px Orange;
+	/*text-shadow: 6px -6px 4px lightblue;¨*/
 }
 
 p.subtitulos{
@@ -26,7 +26,17 @@ input.cajatexto{
   font-style: italic;
   text-align: center;
   font-size: 18pt;
-  background-color: Orange;
+  background-color: lightblue;
+  border-radius: 10px;
+  border-color: white;
+}
+
+input.boton{
+  font-family: Arial, Serif;
+  font-style: italic;
+  text-align: center;
+  font-size: 14pt;
+  background-color: silver;
   border-radius: 10px;
   border-color: white;
 }
