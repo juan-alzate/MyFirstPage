@@ -36,6 +36,7 @@ input.cajaingreso{
   text-align: center;
   border-radius: 8px;
   font-size: 11pt;
+  box-shadow: 6px 7px 1px grey;
 }
 
 input.boton{
@@ -49,6 +50,17 @@ input.boton{
 }
 
 body{
-  background-color: black;
+  background-color:black;
 }
+
+div.cambiarcolor{
+  background-color: Skyblue;
+  padding: 60px;
+  transition: 3s;
+}
+
+div.cambiarcolor:hover{
+  background-color: orange;
+}
+
 
