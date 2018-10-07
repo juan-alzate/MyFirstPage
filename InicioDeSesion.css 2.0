@@ -25,4 +25,43 @@ div#InicioDeSesion{
 
 div#Info{
 
+}div#InicioDeSesion{
+	width: 1365px;
+	height: 80px;
+	margin: 0.2px;
+    color: white;  
+    background:linear-gradient(aqua, black);
+}
+
+div#Carrusel{
+float: left;
+margin-top: 90px;
+margin-left: 20px;
+width: 610px;
+height: 500px;
+background-color: black;
+overflow: hidden;	
+}
+
+
+div#Register{
+float: right;
+margin-top: 90px;
+margin-right: 20px;
+width: 610px;
+height: 500px;
+background-color: black;
+overflow: hidden;
+}
+
+span#Logo{
+	position: absolute; top: 8px; left: 120px;
+}
+
+p.titulo{
+	font-family: Arial, Serif;
+	font-size: 40px;
+	font-style: italic;
+	font-weight: 750;
+	text-shadow: 6px -6px 6px black;
 }
