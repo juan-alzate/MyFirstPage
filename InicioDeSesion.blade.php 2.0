@@ -1,0 +1,42 @@
+@extends('plantillas.app')
+
+<!--creamos titulo-->
+@section('title', 'Inicio de sesión')
+
+<!--creamos los contenidos en head-->
+@section('head')
+<link rel="stylesheet" href="{{ asset('css/InicioDeSesion.css') }}">
+@endsection
+
+<!--creamos contenidos en body-->
+@section('body')
+<div id="InicioDeSesion">
+	<span id="Logo">
+		<label><p class="titulo">JuansBook</p></label>
+	</span>
+	<div id="SubInicio" class="container">
+
+     <!--Formulario inicio de sesion-->
+   <form method="POST" action="/JuansBook">
+   	@csrf
+  <div class="form-group">
+    <label for="exampleInputEmail1"><b>Correo</b></label>
+    <input name="Email_Inicio" type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+    <small id="emailHelp" class="form-text text-muted"><b>Nunca compartiremos tu información.</b></small>
+  </div>
+  <div class="form-group">
+    <label for="exampleInputPassword1"><b>Contraseña</b></label>
+    <input name="Contraseña_Inicio" type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+  </div>
+  <div class="form-group form-check">
+    <input name="Recordarme_Inicio" type="checkbox" class="form-check-input" id="exampleCheck1">
+    <label class="form-check-label" for="exampleCheck1"><b>Recordarme</b></label>
+  </div>
+  <span> 
+   <button type="submit" class="btn btn-primary">Ingresar</button>
+   <label><a href="JuansBook/create">Registrate aqui</a></label>
+   </span>
+</form>
+	</div>
+</div>
+@endsection
