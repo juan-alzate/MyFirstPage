@@ -1,0 +1,62 @@
+extends('plantillas.app')
+
+<!--creamos titulo-->
+@section('title' , 'Registro')
+
+<!--creamos head-->
+@section('head')
+<link rel="stylesheet" href="{{ asset('css/Registro.css') }}">
+@endsection
+
+<!--creamos body-->
+@section('body')
+
+<!--frame de registro-->
+<div id="Register" class="container" >
+
+	<form method="POST" action="/JuansBook">
+    @csrf
+	<div class="form-row">
+    <div class="form-group col-md-6">
+      <label for="inputEmail4"><p class="Letras">Nombres</p></label>
+      <input name="Nombre" type="text" class="form-control" id="inputEmail4" placeholder="Juan Felipe">
+    </div>
+    <div class="form-group col-md-6">
+      <label for="inputPassword4"><p class="Letras">Apellidos</p></label>
+      <input name="Apellido" type="text" class="form-control" id="inputPassword4" placeholder="Ramírez Ramírez">
+    </div>
+  </div>	
+  <div class="form-row">
+    <div class="form-group col-md-6">
+      <label for="inputEmail4"><p class="Letras">Email</p></label>
+      <input name="Email_Registro" type="email" class="form-control" id="inputEmail4" placeholder="Email">
+    </div>
+    <div class="form-group col-md-6">
+      <label for="inputPassword4"><p class="Letras">Contraseña</p></label>
+      <input name="Contraseña_Registro" type="password" class="form-control" id="inputPassword4" placeholder="Password">
+    </div>
+  </div>
+   <div class="form-row">
+    <div class="form-group col-md-6">
+      <label for="inputCity"><p class="Letras">Pais</p></label>
+      <input name="Pais_Registro" type="text" class="form-control" id="inputCity" placeholder="Colombia">
+    </div>
+    <div class="form-group col-md-4">
+      <label for="inputState"><p class="Letras">Ciudad</p></label>
+      <input name="Ciudad_Registro" id="inputState" class="form-control" placeholder="Medellín">
+    </div>
+    <div class="form-group col-md-2">
+      <label for="inputZip"><p class="Letras">Edad</p></label>
+      <input name="Edad_Registro" type="text" class="form-control" id="inputZip" placeholder="32">
+    </div>
+  </div>
+  <div class="form-group">
+    <div class="form-check">
+      <input name="Condiciones_Registro" class="form-check-input" type="checkbox" id="gridCheck">
+      <label class="form-check-label" for="gridCheck">
+       <p class="Letras"> Acepto terminos y condiciones</p>
+      </label>
+    </div>
+  </div>
+  <button type="submit" class="btn btn-primary">Registrarse</button>
+</form>
