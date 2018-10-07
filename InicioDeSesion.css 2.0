@@ -1,0 +1,40 @@
+div#InicioDeSesion{
+position: absolute;
+margin-top: 50px;
+margin-left: 350px;
+width: 610px;
+height: 500px;
+background:linear-gradient(aqua ,black 90%);
+border-radius: 10%;
+overflow: hidden;	
+}
+
+span#Logo{
+	position: absolute;
+	 top: 15px; 
+	 left: 200px;
+}
+
+p.titulo{
+	color: black;
+	font-family: Arial, Serif;
+	font-size: 40px;
+	font-style: italic;
+	font-weight: 750;
+	text-shadow: 6px -6px 6px white;
+}
+
+div#SubInicio{
+position: absolute;
+margin-top: 100px;
+margin-left: 120px;
+width: 400px;
+height: 300px;
+background:linear-gradient(top,aqua ,black);
+overflow: hidden;	
+}
+
+span#EnLinea{
+	display: inline;
+	word-spacing: 30px;
+}
