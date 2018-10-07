@@ -1,0 +1,28 @@
+div#Carrusel{
+float: left;
+margin-top: 90px;
+margin-left: 20px;
+width: 610px;
+height: 500px;
+background-color: black;
+overflow: hidden;	
+}
+
+
+div#Register{
+float: right;
+margin-top: 90px;
+margin-right: 20px;
+width: 610px;
+height: 500px;
+background-color: black;
+overflow: hidden;
+}
+
+div#InicioDeSesion{
+
+}
+
+div#Info{
+
+}
