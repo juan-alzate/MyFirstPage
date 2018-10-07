@@ -1,5 +1,26 @@
+@extends('plantillas.app')
+
+<!--creamos titulo-->
+@section('title' , 'Inicio de Sesión')
+
+<!--creamos head-->
+@section('head')
+<link rel="stylesheet" href="{{ asset('css/InicioDeSesion.css') }}">
+@endsection
+<!--creamos body-->
+@section('body')
+
+<div id="Register" class="container" >
+   
+</div>
+<div id="Carrusel" class="container">
+	<p>awljerhalkerhjalp3erjhalkjehrlpajrhalpjehralkjerhalpjehralpjehralkejhralpjerhalkwejrhalkwejhralkjwehr
+	ahjwlerhalkjerhawkerhjawkljerhalkerhjalpwejrhalkjehralj</p>
+</div>
 <div id="InicioDeSesion" class="container-fluit">
 	<span id="Logo">
 		<label><p class="titulo">JuansBook</p></label>
 	</span>
 </div>
+
+@endsection
