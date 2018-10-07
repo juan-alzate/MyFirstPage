@@ -1,1 +1,5 @@
-
+<div id="InicioDeSesion" class="container-fluit">
+	<span id="Logo">
+		<label><p class="titulo">JuansBook</p></label>
+	</span>
+</div>
